@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/MainMenu.unity
+    guid: fdf4ae1be71dd4f4898ae1f3fbab5491
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/TestScenes/TestScene.unity
+    guid: 5a2dc577a34e4d4458c623ec4a2f6bfb
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/TestScenes/TestScene2.unity
+    guid: a74b6cdb1004e9042b17ca5e7c5dbd8d
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/TestScenes/TestScene3.unity
+    guid: 5cf9942dc3ae56749a6547dea91f0b0b
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/TestScenes/TestScene4.unity
+    guid: 70b119a0b87f82c4ab6f50dd196928d2
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/TestScenes/TestScene5.unity
+    guid: 4ea8ff98453e8694480c5cb225c16f96
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/Player.unity
+    guid: 1e62910cab7000e48a6ffbff2f79caa2
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
