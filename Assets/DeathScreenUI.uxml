@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="DeathScreenRoot" style="flex-grow: 1; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.9); justify-content: center; align-items: center; display: flex; position: absolute; -unity-background-image-tint-color: rgba(16, 15, 0, 0.98);">
+        <engine:Label text="Game Over" name="Label" style="font-size: 48px; color: rgb(255, 255, 255); display: flex; align-self: center; align-items: center; padding-top: 367px;" />
+        <engine:VisualElement name="ButtonList" style="flex-grow: 1; align-items: stretch; border-bottom-width: 0; align-self: center; align-content: flex-start; width: 12%; height: 196px;">
+            <engine:Button text="Retry" name="RetryButton" style="display: flex; font-size: 36px; padding-top: 15px;" />
+            <engine:Button text="Main Menu" name="MainMenuButton" style="display: flex; font-size: 36px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
