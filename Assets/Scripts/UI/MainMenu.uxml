@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=b7b028e88194ce74d921468fc2140bce&amp;type=3#MainMenu" />
+    <engine:VisualElement name="Panel" class="panel" style="flex-grow: 1; align-self: stretch; justify-content: flex-start; align-items: stretch; align-content: auto;">
+        <engine:VisualElement name="ButtonList" style="flex-grow: 1; align-self: center; flex-direction: column; flex-wrap: nowrap; justify-content: center; width: 20%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 10%; padding-top: 10%;">
+            <engine:Button text="New Game" name="ButtonNewGame" class="button" />
+            <engine:Button text="Exit" name="ButtonExit" class="button" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
